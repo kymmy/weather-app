@@ -1,3 +1,86 @@
-h1 {
-    color: red
+body {
+  font-family: "Poppins", sans-serif;
+  color: #cdc8bf;
+}
+
+.application {
+  margin: 50px auto; /* center */
+  border: 1px solid #dadde1;
+  padding: 35px;
+  border-radius: 10px;
+  max-width: 800px;
+}
+
+.current-weather {
+  font-family: "Roboto", sans-serif;
+}
+.main-icon {
+  color: #faeb4c;
+  font-size: 130px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
+.weather-details {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.weather-description {
+  list-style-type: none;
+}
+
+#main-temp {
+  color: rgb(33, 33, 33);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1;
+}
+#unit-celsius,
+#unit-fahrenheit,
+#unit-divider {
+  font-weight: bold;
+  position: relative;
+  top: -30px;
+  text-decoration: none;
+}
+
+.forecasts {
+  margin: 20px 0px;
+}
+a {
+  text-decoration: none;
+  color: #cdc8bf;
+  font-weight: lighter;
+}
+#city {
+  font-size: 20px;
+  margin: 15px 0px;
+}
+#city-search,
+#location {
+  display: inline;
+}
+#location {
+  font-size: 40px;
+}
+
+.forecast {
+  text-align: center;
+}
+
+.forecast-icon {
+  font-size: 25px;
+  margin: 0 auto;
+  display: block;
+}
+
+.forecast-icon :hover {
+  background: red;
+  cursor: pointer;
+}
+
+.forecast-description {
+  font-size: 10px;
 }
